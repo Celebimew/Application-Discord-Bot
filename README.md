@@ -2,7 +2,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue) ![Discord.py Version](https://img.shields.io/badge/discord.py-2.0%2B-orange)
 
 ## Commands
-**`setup`**<br>
+**`sendpanel`**<br>
 
 ## Imports
 ``pip install discord.py python-dotenv``
