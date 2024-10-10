@@ -22,9 +22,9 @@ intents.auto_moderation_configuration = True
 bot = commands.Bot(command_prefix='c!', intents=intents)
 
 # Applications will be sent in this channel
-review_channel_id = 1247311248010248222 
+review_channel_id = 123456789123456789
 # Roles for members to apply for (ID)
-roles = [1268637073225547886] 
+roles = [123456789123456789] 
 # Your application questions
 application_questions = [
     "Your Questions here"
@@ -33,7 +33,7 @@ application_questions = [
 # =================================== Status Switching ===================================
 #statuses = cycle([
 #    ("Status 1", discord.ActivityType.playing),
-#    ("Status 2", discord.ActivityType.watching),
+#    ("Status 2", discord.ActivityType.watching)
 #])
 
 #@tasks.loop(minutes=3)
@@ -46,7 +46,7 @@ application_questions = [
 async def on_ready():
     print(f'Logged in as {bot.user}')
     # Change "Your Status Here" with your status or delete the line below if you want to use status switching
-    await bot.change_presence(activity=discord.Game(name="Your Status Here"), status=discord.Status.dnd)
+    await bot.change_presence(activity=discord.Game(name="Your Status Here"), status=discord.Status.online)
 
 class RoleSelect(Select):
     def __init__(self, guild):
