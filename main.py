@@ -130,7 +130,7 @@ async def ask_questions(ctx, user):
 
 @bot.command()
 @commands.has_permissions(administrator=True)
-async def setup(ctx):
+async def sendpanel(ctx):
     try:
         view = View()
         role_select = RoleSelect(ctx.guild)
