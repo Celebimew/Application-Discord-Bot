@@ -9,10 +9,10 @@ To use rotating status (change status every x minutes), remove all `#` from line
     ("Status 2", discord.ActivityType.watching),
 ])`
 
-#@tasks.loop(minutes=3)
-#async def change_status():
-#    status, activity_type = next(statuses)
-#    await bot.change_presence(activity=discord.Activity(type=activity_type, name=status), status=discord.Status.dnd)`
+`@tasks.loop(minutes=3)
+async def change_status():
+    status, activity_type = next(statuses)
+    await bot.change_presence(activity=discord.Activity(type=activity_type, name=status), status=discord.Status.dnd)`
 and remove line 49
 
 ## Commands
