@@ -25,6 +25,9 @@ and remove line 49
 **`setup`**<br>
 
 ## Configuration
+Make a new file named `.env` and add `TOKEN=YourToken` replace "YourToken" with your bot token<br>
+To change your prefix, replace `c!` with your prefered prefix<br>
+`bot = commands.Bot(command_prefix='c!', intents=intents)`<br>
 The bot will send the application message to the channel ID specified in `review_channel_id`<br>
 To add application roles, add their IDs in `roles = []` (Seperated by a comma (,))<br>
 To add questions, add them here:<br>
