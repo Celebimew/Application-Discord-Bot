@@ -14,6 +14,17 @@ How to activate a virtual environment (optional)
 How to deactivate a virtual environment
 `deactivate`
 
+## Creating A Discord Bot
+1. Go to https://discord.com/developers/applications
+2. Click "New Application"
+3. Enter a name
+4. Click "Create"
+5. Click "Bot"
+6. Click "Reset Token"
+7. Copy your token
+8. Go to your .env file and enter your token
+9. Toggle on "Message Content Intent"
+
 ## Configuration
 Make a new file named `.env` and add `TOKEN=YourToken` replace "YourToken" with your bot token<br>
 To change your prefix, replace `c!` with your prefered prefix<br>
