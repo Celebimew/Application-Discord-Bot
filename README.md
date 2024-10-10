@@ -28,7 +28,7 @@ and remove line 49
 The bot will send the application message to the channel ID specified in `review_channel_id`<br>
 To add application roles, add their IDs in `roles = []` (Seperated by a comma (,))<br>
 To add questions, add them here:<br>
-`application_questions = [<br>
-    "Question 1",<br>
-    "Question 2"<br>
+`application_questions = [`<br>
+`    "Question 1",`<br>
+`    "Question 2"`
 ]`<br>
