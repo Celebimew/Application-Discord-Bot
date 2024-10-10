@@ -12,7 +12,7 @@ To use rotating status (change status every x minutes), remove all `#` from line
 `statuses = cycle([`<br>
 `    ("Status 1", discord.ActivityType.playing),`<br>
 `    ("Status 2", discord.ActivityType.watching)`<br>
-])`<br>
+`])`<br>
 
 `@tasks.loop(minutes=3)`<br>
 `async def change_status():`<br>
@@ -31,4 +31,4 @@ To add questions, add them here:<br>
 `application_questions = [`<br>
 `    "Question 1",`<br>
 `    "Question 2"`<br>
-]`<br>
+`]`<br>
