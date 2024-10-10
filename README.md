@@ -4,6 +4,16 @@
 ## Commands
 **`setup`**<br>
 
+## Imports
+`pip install discord.py python-dotenv`
+## Virtual Environments
+How to set up a virtual environment (optional)
+`python -m venv venv`
+How to activate a virtual environment (optional)
+`venv/scripts/activate`
+How to deactivate a virtual environment
+`deactivate`
+
 ## Configuration
 Make a new file named `.env` and add `TOKEN=YourToken` replace "YourToken" with your bot token<br>
 To change your prefix, replace `c!` with your prefered prefix<br>
