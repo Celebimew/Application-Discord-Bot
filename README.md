@@ -5,7 +5,7 @@
 **`setup`**<br>
 
 ## Imports
-`pip install discord.py python-dotenv`
+``pip install discord.py python-dotenv``
 ## Virtual Environments
 How to set up a virtual environment (optional)
 `python -m venv venv`
